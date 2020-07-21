@@ -1,5 +1,5 @@
 .icone{
-    /* icones d primeira barra */
+    /* icones de primeira barra */
     max-width:50px;
     max-height:30px;
     width: auto;
@@ -96,7 +96,7 @@ iframe
 }
 
 
-
+/*Edição styles */
 .mt-5{
     text-align: center;
 }
@@ -130,6 +130,7 @@ iframe
 
 
 
+/* Edição cards*/
 .card{
     transition:0.5s;
     cursor:pointer;
@@ -188,31 +189,4 @@ iframe
     .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
     }
-
-
     
-    @media(max-width: 768px)
-    {
-        
-        .card
-        {
-            margin-left: 70px;
-            height: auto;
-            width: 300px;
-        }
-        .texto1_projeto
-        {
-            margin-left: 50px; 
-            margin-right: 50px;
-        }
-        .texto2_projeto
-        {
-            text-align: left;
-            margin-left: 50px; 
-            margin-right: 20px;
-        }
-        .img_math
-        {
-            padding: 50px;
-        }
-    }
