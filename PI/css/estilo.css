@@ -1,6 +1,5 @@
 .icone{
-    /* icones de primeira barra */
-    /*edit*/
+    /* icones d primeira barra */
     max-width:50px;
     max-height:30px;
     width: auto;
@@ -96,13 +95,10 @@ iframe
     
 }
 
-
 /*Edição styles */
 
 
-.col-12, h3{
-    font-family: fantasy; text-align: center; color: rgb(45, 119, 230);
-}
+
 
 .navbar navbar-expand-lg navbar-light{
     background-color:rgba(0, 0, 0, 0.014);
@@ -169,4 +165,51 @@ iframe
     .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
     }
+
+
+    /*responsividade cards*/
+    @media(max-width: 768px)
+    {
+        
+        .card
+        {
+            margin-left: 70px;
+            height: auto;
+            width: 300px;
+            margin: auto ;
+        }
+        .texto1_projeto
+        {
+            margin-left: 50px; 
+            margin-right: 50px;
+        }
+        .texto2_projeto
+        {
+            text-align: left;
+            margin-left: 50px; 
+            margin-right: 20px;
+        }
+        .img_math
+        {
+            padding: 50px;
+        }
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .video{
+        text-align: center;
+    }
+
+    #titulo-home, #titulo-equipe, #titulo-projeto, #titulo-contato  {
+        color: blue;
+    }
+
+    .cor-barra2{
+        background-color: rgba(0, 0, 0, 0.020);
+    }
+
+    
     
