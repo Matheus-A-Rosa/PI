@@ -98,36 +98,15 @@ iframe
 
 
 /*Edição styles */
-.mt-5{
-    text-align: center;
-}
+
 
 .col-12, h3{
     font-family: fantasy; text-align: center; color: rgb(45, 119, 230);
 }
 
-.mt-5 mb-3{
-    text-align: center;
-}
-
-.img-fluid{
-    width: 100%; height: auto;
-}
-
 .navbar navbar-expand-lg navbar-light{
     background-color:rgba(0, 0, 0, 0.014);
 }
-
-.col-md-6{
-    width: 100%; height: auto;
-}
-
-.texto1_projeto
-    {
-        margin-left: 200px; 
-        margin-right: 200px;
-        text-align: center;
-    }
 
 
 
@@ -137,10 +116,10 @@ iframe
     cursor:pointer;
     }
     .card-title{  
-    font-size:15px;
+    font-size:18px;
     transition:1s;
     cursor:pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
     text-align: center;
     }
     .card-title i{  
